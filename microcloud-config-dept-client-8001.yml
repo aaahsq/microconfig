@@ -40,7 +40,7 @@ security:
 eureka:
   client:
     service-url:
-      defaultZone: http://hsq:hello@eureka-7001.com:7001/eureka, http://hsq:hello@eureka-7002.com:7002/eureka, http://hsq:hello@eureka-7003.com:7003/eureka
+      defaultZone: http://hsq:hello@eureka-7001.com:7001/eureka
       
   instance:
     instance-id: dept-8001.com
@@ -92,7 +92,7 @@ security:
 eureka:
   client:
     service-url:
-      defaultZone: http://hsq:hello@eureka-7001.com:7001/eureka, http://hsq:hello@eureka-7002.com:7002/eureka, http://hsq:hello@eureka-7003.com:7003/eureka
+      defaultZone: http://hsq:hello@eureka-7001.com:7001/eureka
       
   instance:
     instance-id: dept-8001.com
