@@ -30,7 +30,7 @@ security:
     password: hello 
 ---
 spring:
-  profiles: beta
+  profiles: dev
   application:
     name: microcloud-config-eureka-7001 
 
