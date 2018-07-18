@@ -1,0 +1,57 @@
+
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: beta
+  application:
+    name: microcloud-config-eureka-7001 
+
+server:
+  port: 7001
+  
+eureka:
+  instance:
+    hostname: eureka-7001.com
+  
+  client:
+    service-url:
+      defaultZone: http://hsq:hello@eureka-7001.com:7001/eureka
+    register-with-eureka: false
+    fetch-registry: false
+    
+security:
+  basic:
+    enabled: true
+  user:
+    name: hsq
+    password: hello 
+---
+spring:
+  profiles: beta
+  application:
+    name: microcloud-config-eureka-7001 
+
+server:
+  port: 7001
+  
+eureka:
+  instance:
+    hostname: eureka-7001.com
+  
+  client:
+    service-url:
+      defaultZone: http://hsq:hello@eureka-7001.com:7001/eureka
+    register-with-eureka: false
+    fetch-registry: false
+    
+security:
+  basic:
+    enabled: true
+  user:
+    name: hsq
+    password: hello  
+
+  
